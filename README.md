@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution link here](https://www.frontendmentor.io/)  
+- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-frontend-mentor-challenge-AumRJ7qLgh)
 - Live Site URL: [visit](https://shimanto-codes.github.io/NFT-preview-card-component/)  
 
 ---
