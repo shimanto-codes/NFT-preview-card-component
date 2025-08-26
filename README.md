@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution link here](https://www.frontendmentor.io/)  
-- Live Site URL: [Add live site link here](https://your-live-site.com/)  
+- Live Site URL: [visit](https://shimanto-codes.github.io/NFT-preview-card-component/)  
 
 ---
 
