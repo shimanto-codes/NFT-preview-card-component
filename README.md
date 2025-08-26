@@ -28,7 +28,7 @@ Users should be able to:
 ### Screenshot 
 
 ![NFT Preview Card Screenshot](./images/Output.png)
-![NFT Preview Card Screenshot](./design/active-states.jpg)
+![NFT Preview Card Screenshot](./design/active-states.png)
 ### Links
 
 - Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-frontend-mentor-challenge-AumRJ7qLgh)
