@@ -3,13 +3,6 @@
 This is my solution to the [NFT preview card component challenge](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U) on Frontend Mentor.  
 Frontend Mentor challenges help you improve your coding skills by building realistic projects.  
 
----
-
-## 📸 Preview
-
-![Design preview for the NFT preview card component coding challenge](./images/image-equilibrium.jpg)
-
----
 
 ## 📚 Table of contents
 
@@ -21,7 +14,6 @@ Frontend Mentor challenges help you improve your coding skills by building reali
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-- [Author](#author)
 
 ---
 
@@ -36,6 +28,7 @@ Users should be able to:
 ### Screenshot 
 
 ![NFT Preview Card Screenshot](./images/Output.png)
+![NFT Preview Card Screenshot].(./desigin/active-states.jpg).
 
 ### Links
 
