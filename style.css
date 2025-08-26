@@ -1,0 +1,152 @@
+:root{
+  /* ### Primary */
+
+  --Blue500: hsl(215, 51%, 70%);
+  --Cyan400: hsl(178, 100%, 50%);
+
+/* ### Neutral */
+
+  --Blue950_main_BG: hsl(217, 54%, 11%);
+  --Blue900_card_BG: hsl(216, 50%, 16%);
+  --Blue800_line: hsl(215, 32%, 27%);
+  --White:hsl(0, 0%, 100%);
+  /* font */
+  --ff_prymary:"Outfit", sans-serif;
+  --ff_size: 18px;
+}
+/* reset */
+*, *::after, *::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100vh;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--Blue950_main_BG);
+  font-family: var(--ff_prymary);
+  color: var(--Blue500);
+}
+.card{
+  width: 350px;
+  background: var(--Blue900_card_BG);
+  padding: 25px;
+  border-radius: 10px;
+}
+.img{
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 350px;
+}
+  .img .main_img{
+  display: block;
+  border-radius: 10px;
+  max-width: 100%;
+}
+/* overlay the main img */
+.overlay{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--Cyan400);
+  border-radius: 10px;
+  opacity: 0;
+}
+/* position view icon */
+.view{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+/* img hover effact */
+.img:hover .overlay{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.img:hover .overlay + .view{
+  display: block;
+}
+.hading h1{
+  padding-top: 20px;
+  padding-bottom: 15px;
+  color: var(--White);
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-block;
+}
+.hading h1:hover{
+  color: var(--Cyan400);
+}
+.hading p{
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.time{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.left_time, .right_time{
+  display: flex;
+  align-items: center;
+}
+.left_time img, .right_time img{
+  padding-right: 10px;
+}
+.left_time h2{
+  font-size: 15px;
+  color: var(--Cyan400);
+}
+hr{
+  color: var(--Blue800_line);
+  opacity: 0.1;
+}
+.footer{
+  display: flex;
+  padding-top: 20px;
+  gap: 10px;
+  align-items: center;
+}
+.footer img{
+  width: 30px;
+  height: 30px;
+  border: solid 1px var(--White);
+  border-radius: 50%;
+}
+.footer h3{
+  font-size: 18px;
+  color: var(--Blue500);
+  font-weight: 300; 
+}
+.footer span{
+  color: var(--White);
+}
+.footer span:hover{
+  color: var(--Cyan400);
+  cursor: pointer;
+}
+
+/* respnsive  */
+
+@media screen and (max-width:400px) {   
+  .card{
+    max-width: 90%;
+  }
+}
+
